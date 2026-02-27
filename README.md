@@ -70,8 +70,3 @@ To enable experimental features:
 export EXPERIMENTAL_AI=true
 ./scripts/deploy.sh
 ```
-## FAQ
-
-### Q: What is DevOps Simulator?
-
-A: DevOps Simulator is a comprehensive CI/CD configuration management tool for enterprise deployments.

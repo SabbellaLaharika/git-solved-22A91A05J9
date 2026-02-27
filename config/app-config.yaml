@@ -1,4 +1,5 @@
 # Production Application Configuration
+# Merged: main + conflict-simulator branches
 application:
   name: DevOpsSimulator
   version: 1.0.0
@@ -36,3 +37,18 @@ notifications:
   slack_webhook: "https://hooks.slack.com/services/XXX"
   discord_webhook: "https://discord.com/api/webhooks/YYY"
   email_alerts: false
+
+# EXPERIMENTAL FEATURES (NOT PRODUCTION-READY - disabled by default)
+# Uncomment only in testing/experimental environments
+# experimental:
+#   enabled: false
+#   ai_features:
+#     predictive_scaling: false
+#     anomaly_detection: false
+#     auto_optimization: false
+#     model_version: "v2.1.0"
+#   cloud_providers: [aws, azure, gcp, digitalocean]
+#   chaos_engineering: false
+#   security:
+#     zero_trust: false
+#     encryption: AES-256

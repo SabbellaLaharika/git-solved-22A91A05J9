@@ -48,5 +48,20 @@
       "reset_on_restart": true,
       "debug_queries": true
     }
+  },
+  "_experimental_note": "NOT PRODUCTION-READY - Distributed config for future testing only",
+  "_experimental_disabled": {
+    "connection_type": "distributed",
+    "nodes": [
+      "node1.example.com",
+      "node2.example.com",
+      "node3.example.com"
+    ],
+    "ai_optimization": "query_optimization, index_suggestions",
+    "geo_redundancy": [
+      "us-east",
+      "eu-west",
+      "ap-south"
+    ]
   }
 }

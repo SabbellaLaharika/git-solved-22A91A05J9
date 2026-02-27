@@ -52,3 +52,21 @@ Please read CONTRIBUTING.md before submitting pull requests.
 
 ## License
 MIT License
+
+---
+
+## ⚠️ Experimental Features (NOT PRODUCTION-READY)
+
+> Use in testing environments ONLY. Not validated for production use.
+
+- 🤖 AI-powered deployment optimization (experimental)
+- 🌐 Multi-cloud orchestration — AWS, Azure, GCP (experimental)
+- 📈 Predictive scaling with machine learning (experimental)
+- 🔒 Zero-trust security architecture (experimental)
+- 🎯 Chaos engineering tools (experimental)
+
+To enable experimental features:
+```bash
+export EXPERIMENTAL_AI=true
+./scripts/deploy.sh
+```

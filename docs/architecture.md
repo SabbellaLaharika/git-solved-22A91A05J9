@@ -38,3 +38,25 @@ DevOps Simulator follows a microservices architecture designed for high availabi
 ## Security
 - **Production**: SSL/TLS encryption, strict access controls
 - **Development**: Relaxed security for easier debugging
+
+---
+
+## ⚠️ Experimental Features (NOT PRODUCTION-READY)
+
+> These features are under active research. Do NOT enable in production environments.
+
+### Planned: AI/ML Pipeline
+- Anomaly detection (LSTM neural network)
+- Load prediction (XGBoost)
+- Auto-scaling optimizer (Reinforcement Learning)
+- **Status**: Experimental — testing only
+
+### Planned: Multi-Cloud Orchestration
+- Target clouds: AWS, Azure, GCP, DigitalOcean
+- Global anycast load balancing with GeoDNS
+- **Status**: Experimental — not validated
+
+### Planned: Distributed Database Clustering
+- Multi-node PostgreSQL cluster with geo-redundancy
+- Continuous backup to S3
+- **Status**: Experimental — not validated
